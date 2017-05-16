@@ -1,0 +1,97 @@
+    1  sudo yum groupinstall "Development Tools"
+    2  ping google.com
+    3  ping http://www.google.com
+    4  ll /etc/yum.repos.d
+    5  yum clean all
+    6  yum --disablerepo=\* --enablerepo=base,extras,updates update[/b]
+    7  yum --disablerepo=\* --enablerepo=base,extras,updates update
+    8  yum --disablerepo=\* --enablerepo=base,extras,updates update[/b]
+    9  sudo yum groupinstall "Development Tools"
+   10  sudo yum install wget
+   11  sudo yum install git-all
+   12  ls -al
+   13  git
+   14  git --version
+   15  git --global user.name "Raj"
+   16  git config --global user.name="Raj"
+   17  git config --global user.name "Raj"
+   18  git config --global user.email "njeedigunta@yahoo.com"
+   19  git config --global list
+   20  git config --list
+   21  ssh -keygen -t rsa -b 4096 -C "njeedigunta@yahoo.com"
+   22  ssh-keygen -t rsa -b 4096 -C "njeedigunta@yahoo.com"
+   23  eval "$(ssh-agent -s)"
+   24  ssh-add ~/.ssh/id_rsa
+   25  cat  ~/.ssh/id rsa.pub
+   26  cat  ~/.ssh/id/rsa.pub
+   27  cd ~/.ssh
+   28  ls
+   29  cat id_rsa.pub
+   30  ssh -T git@github.com
+   31  cd git-repo
+   32  cd git-repo/
+   33  ls
+   34  cd 
+   35  ls
+   36  ls -al
+   37  cd \
+   38  cd /
+   39  ls
+   40  cd home
+   41  ls
+   42  cd raj
+   43  ls
+   44  cd /home/njeedigunta
+   45  sudo  njeedigunta
+   46  ls
+   47  dir
+   48  ls -al
+   49  cd /
+   50  dir
+   51  cd home
+   52  ls
+   53  cd raj
+   54  ls
+   55  ls -al
+   56  mkdir git-repo
+   57  cd git-repo
+   58  git init
+   59  ls
+   60  ls -al
+   61  cd .git
+   62  ls
+   63  cd ..
+   64  ls -al
+   65  pwd
+   66  git remote add ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDHyVLoX709SseeACJizS9uNkFZCYKh0TlZvAHYf4Q7eMrb24NKCB5WbDqcDGV2iB1o1z9gbIA4hgjGs9hURM6775tA5Rq+5yy7ZkJfEB+tk0WVEX0y0GCSXDMW04gzVsKegAmP8yKifpY1L5bjaKhaLQDMiVmo6g+FJdjaIuI947hKuPgqu9lJ1Wg0ERz45ZrYYL3LNn92aqgqrPeX6H9hgny4kbCoHSglAZRFbs9bLWknJUEqg0zaDBLDmTcZRwatZ7KQ2ltlakMVtMephEU60+VsGmyh84q3oCCYhXsCP5S2zl1IZz4COB/YJNmwyXy1B/sMxdyDnkU5Vp9UTP0GyMK+2epI73jMBzdsGPpZNJiRxGplRoqTtWSDwpEv5QBqOuF6xPePVIBCLU/s9S9QKEP0wXCCmflIdacfU5CPdb65lspMZgh3NfaawFnhtM/+EnjxHw36GstuXHqrA+V/T5DIyRMMBYh/spEDqIzMfeAkbewXM1d9yknTjdqbHyGBTpWkj0SJf3SWYu4iQwIlc4ycY+LZtI4hTRdC8EtU2hBbKymD8r3S2CHItO3SIK9j13kh5Tm9fsCkCOytyeyYFs1gYyciJnwhJBktys/wuwxoeBdMERkZ1ZFGDrorjWux+ur8KStxWQOSVGeUgdei1hQGM2mkU32gSY3CWcmE/Q== njeedigunta@yahoo.com
+   67  ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDHyVLoX709SseeACJizS9uNkFZCYKh0TlZvAHYf4Q7eMrb24NKCB5WbDqcDGV2iB1o1z9gbIA4hgjGs9hURM6775tA5Rq+5yy7ZkJfEB+tk0WVEX0y0GCSXDMW04gzVsKegAmP8yKifpY1L5bjaKhaLQDMiVmo6g+FJdjaIuI947hKuPgqu9lJ1Wg0ERz45ZrYYL3LNn92aqgqrPeX6H9hgny4kbCoHSglAZRFbs9bLWknJUEqg0zaDBLDmTcZRwatZ7KQ2ltlakMVtMephEU60+VsGmyh84q3oCCYhXsCP5S2zl1IZz4COB/YJNmwyXy1B/sMxdyDnkU5Vp9UTP0GyMK+2epI73jMBzdsGPpZNJiRxGplRoqTtWSDwpEv5QBqOuF6xPePVIBCLU/s9S9QKEP0wXCCmflIdacfU5CPdb65lspMZgh3NfaawFnhtM/+EnjxHw36GstuXHqrA+V/T5DIyRMMBYh/spEDqIzMfeAkbewXM1d9yknTjdqbHyGBTpWkj0SJf3SWYu4iQwIlc4ycY+LZtI4hTRdC8EtU2hBbKymD8r3S2CHItO3SIK9j13kh5Tm9fsCkCOytyeyYFs1gYyciJnwhJBktys/wuwxoeBdMERkZ1ZFGDrorjWux+ur8KStxWQOSVGeUgdei1hQGM2mkU32gSY3CWcmE/Q== njeedigunta@yahoo.com
+   68  git remote add ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDHyVLoX709SseeACJizS9uNkFZCYKh0TlZvAHYf4Q7eMrb24NKCB5WbDqcDGV2iB1o1z9gbIA4hgjGs9hURM6775tA5Rq+5yy7ZkJfEB+tk0WVEX0y0GCSXDMW04gzVsKegAmP8yKifpY1L5bjaKhaLQDMiVmo6g+FJdjaIuI947hKuPgqu9lJ1Wg0ERz45ZrYYL3LNn92aqgqrPeX6H9hgny4kbCoHSglAZRFbs9bLWknJUEqg0zaDBLDmTcZRwatZ7KQ2ltlakMVtMephEU60+VsGmyh84q3oCCYhXsCP5S2zl1IZz4COB/YJNmwyXy1B/sMxdyDnkU5Vp9UTP0GyMK+2epI73jMBzdsGPpZNJiRxGplRoqTtWSDwpEv5QBqOuF6xPePVIBCLU/s9S9QKEP0wXCCmflIdacfU5CPdb65lspMZgh3NfaawFnhtM/+EnjxHw36GstuXHqrA+V/T5DIyRMMBYh/spEDqIzMfeAkbewXM1d9yknTjdqbHyGBTpWkj0SJf3SWYu4iQwIlc4ycY+LZtI4hTRdC8EtU2hBbKymD8r3S2CHItO3SIK9
+   69  get remote add ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDHyVLoX709SseeACJizS9uNkFZCYKh0TlZvAHYf4Q7eMrb24NKCB5WbDqcDGV2iB1o1z9gbIA4hgjGs9hURM6775tA5Rq+5yy7ZkJfEB+tk0WVEX0y0GCSXDMW04gzVsKegAmP8yKifpY1L5bjaKhaLQDMiVmo6g+FJdjaIuI947hKuPgqu9lJ1Wg0ERz45ZrYYL3LNn92aqgqrPeX6H9hgny4kbCoHSglAZRFbs9bLWknJUEqg0zaDBLDmTcZRwatZ7KQ2ltlakMVtMephEU60+VsGmyh84q3oCCYhXsCP5S2zl1IZz4COB/YJNmwyXy1B/sMxdyDnkU5Vp9UTP0GyMK+2epI73jMBzdsGPpZNJiRxGplRoqTtWSDwpEv5QBqOuF6xPePVIBCLU/s9S9QKEP0wXCCmflIdacfU5CPdb65lspMZgh3NfaawFnhtM/+EnjxHw36GstuXHqrA+V/T5DIyRMMBYh/spEDqIzMfeAkbewXM1d9yknTjdqbHyGBTpWkj0SJf3SWYu4iQwIlc4ycY+LZtI4hTRdC8EtU2hBbKymD8r3S2CHItO3SIK9j13kh5Tm9fsCkCOytyeyYFs1gYyciJnwhJBktys/wuwxoeBdMERkZ1ZFGDrorjWux+ur8KStxWQOSVGeUgdei1hQGM2mkU32gSY3CWcmE/Q== njeedigunta@yahoo.com
+   70  git remote add ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDHyVLoX709SseeACJizS9uNkFZCYKh0TlZvAHYf4Q7eMrb24NKCB5WbDqcDGV2iB1o1z9gbIA4hgjGs9hURM6775tA5Rq+5yy7ZkJfEB+tk0WVEX0y0GCSXDMW04gzVsKegAmP8yKifpY1L5bjaKhaLQDMiVmo6g+FJdjaIuI947hKuPgqu9lJ1Wg0ERz45ZrYYL3LNn92aqgqrPeX6H9hgny4kbCoHSglAZRFbs9bLWknJUEqg0zaDBLDmTcZRwatZ7KQ2ltlakMVtMephEU60+VsGmyh84q3oCCYhXsCP5S2zl1IZz4COB/YJNmwyXy1B/sMxdyDnkU5Vp9UTP0GyMK+2epI73jMBzdsGPpZNJiRxGplRoqTtWSDwpEv5QBqOuF6xPePVIBCLU/s9S9QKEP0wXCCmflIdacfU5CPdb65lspMZgh3NfaawFnhtM/+EnjxHw36GstuXHqrA+V/T5DIyRMMBYh/spEDqIzMfeAkbewXM1d9yknTjdqbHyGBTpWkj0SJf3SWYu4iQwIlc4ycY+LZtI4hTRdC8EtU2hBbKymD8r3S2CHItO3SIK9
+   71  git remote add 
+   72  ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDHyVLoX709SseeACJizS9uNkFZCYKh0TlZvAHYf4Q7eMrb24NKCB5WbDqcDGV2iB1o1z9gbIA4hgjGs9hURM6775tA5Rq+5yy7ZkJfEB+tk0WVEX0y0GCSXDMW04gzVsKegAmP8yKifpY1L5bjaKhaLQDMiVmo6g+FJdjaIuI947hKuPgqu9lJ1Wg0ERz45ZrYYL3LNn92aqgqrPeX6H9hgny4kbCoHSglAZRFbs9bLWknJUEqg0zaDBLDmTcZRwatZ7KQ2ltlakMVtMephEU60+VsGmyh84q3oCCYhXsCP5S2zl1IZz4COB/YJNmwyXy1B/sMxdyDnkU5Vp9UTP0GyMK+2epI73jMBzdsGPpZNJiRxGplRoqTtWSDwpEv5QBqOuF6xPePVIBCLU/s9S9QKEP0wXCCmflIdacfU5CPdb65lspMZgh3NfaawFnhtM/+EnjxHw36GstuXHqrA+V/T5DIyRMMBYh/spEDqIzMfeAkbewXM1d9yknTjdqbHyGBTpWkj0SJf3SWYu4iQwIlc4ycY+LZtI4hTRdC8EtU2hBbKymD8r3S2CHItO3SIK9j13kh5Tm9fsCkCOytyeyYFs1gYyciJnwhJBktys/wuwxoeBdMERkZ1ZFGDrorjWux+ur8KStxWQOSVGeUgdei1hQGM2mkU32gSY3CWcmE/Q== njeedigunta@yahoo.com
+   73  git remote add https://www.github.com/njeedi/edureka-01
+   74  git remote add https://github.com/njeedi/edureka-01
+   75  ls
+   76  ls -al
+   77  git remote add origin https://github.com/njeedi/edureka-01
+   78  git pull remote origin
+   79  git pull origin master
+   80  ls
+   81  ls 
+   82  cd ..
+   83  ls
+   84  cd git-repo
+   85  ls
+   86  vi test.txt
+   87  ls
+   88  git add test.txt
+   89  git commi -m "first commit"
+   90  git commit -m "first commit"
+   91  git push origin master
+   92  ls
+   93  ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDHyVLoX709SseeACJizS9uNkFZCYKh0TlZvAHYf4Q7eMrb24NKCB5WbDqcDGV2iB1o1z9gbIA4hgjGs9hURM6775tA5Rq+5yy7ZkJfEB+tk0WVEX0y0GCSXDMW04gzVsKegAmP8yKifpY1L5bjaKhaLQDMiVmo6g+FJdjaIuI947hKuPgqu9lJ1Wg0ERz45ZrYYL3LNn92aqgqrPeX6H9hgny4kbCoHSglAZRFbs9bLWknJUEqg0zaDBLDmTcZRwatZ7KQ2ltlakMVtMephEU60+VsGmyh84q3oCCYhXsCP5S2zl1IZz4COB/YJNmwyXy1B/sMxdyDnkU5Vp9UTP0GyMK+2epI73jMBzdsGPpZNJiRxGplRoqTtWSDwpEv5QBqOuF6xPePVIBCLU/s9S9QKEP0wXCCmflIdacfU5CPdb65lspMZgh3NfaawFnhtM/+EnjxHw36GstuXHqrA+V/T5DIyRMMBYh/spEDqIzMfeAkbewXM1d9yknTjdqbHyGBTpWkj0SJf3SWYu4iQwIlc4ycY+LZtI4hTRdC8EtU2hBbKymD8r3S2CHItO3SIK9j13kh5Tm9fsCkCOytyeyYFs1gYyciJnwhJBktys/wuwxoeBdMERkZ1ZFGDrorjWux+ur8KStxWQOSVGeUgdei1hQGM2mkU32gSY3CWcmE/Q== njeedigunta@yahoo.com
+   94  cat ~/.bash-history
+   95  history n
+   96  history 40
+   97  history 100 >commands.txt
