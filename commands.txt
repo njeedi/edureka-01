@@ -95,3 +95,50 @@
    95  history n
    96  history 40
    97  history 100 >commands.txt
+   98  ls
+   99  cat commands.txt
+  100  ls
+  101  git push origin master
+  102  git add commands.txt
+  103  git commit -m "first commit"
+  104  git push origin master
+  105  clear
+  106  ls
+  107  git clone https://github.com/hellokoding/springboot-jsp.git
+  108  ls
+  109  git status
+  110  git -status
+  111  git --status
+  112  ls
+  113  cd springboot-jsp
+  114  ls
+  115  git add *
+  116  git commit -m "spring boot commit"
+  117  ls
+  118  git remote add origin https://github.com/njeedi/edureka-01
+  119  git push origin master
+  120  ls
+  121  git status
+  122  git remote
+  123  git remote -v
+  124  git remote add edurekaremote https://github.com/njeedi/edureka-01
+  125  git remote -v
+  126  git push edurekaremote master
+  127  git pull edurekaremote
+  128  git pull edurekaremote master
+  129  ls
+  130  rm *.md
+  131  ls
+  132  git pull edurekaremote master
+  133  git commit -a
+  134  git pull edurekaremote master
+  135  git commit -a
+  136  git push edurekaremote master
+  137  ls
+  138  git checkout -b  newfeaturebr
+  139  echo "branch test">btest.txt
+  140  git add btest.txt
+  141  git commit -m "branch commit"
+  142   git push edurekaremote newfeaturebr
+  143  ls
+  144  history>commands.txt
